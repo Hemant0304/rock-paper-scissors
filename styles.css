@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Merriweather&family=Montserrat+Alternates:ital,wght@1,300&family=Sacramento&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Asap',sans-serif;
+}
+
+body{
+    background-color: #24272E;
+}
+
+header{
+    background-color: white;
+    padding: 20px;
+}
+
+header > h1{
+    color: #24272E;
+    text-align: center;
+    
+}
+
+.score-board{
+    border: 3px white solid;
+    margin: 20px auto;
+    width: 200px;
+    color: white;
+    text-align: center;
+    font-size: 46px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.badge{
+    background-color: greenyellow;
+    font-size: 17px;
+    color: #24272E;
+    border-radius: 3px;
+    padding: 0 4px 2px 4px;
+}
+
+#user-label{
+    position: absolute;
+    top: 30px;
+    left: -20px;
+}
+
+#computer-label{
+    position: absolute;
+    top: 30px;
+    right: -25px;
+}
+
+.result{
+    font-size: 40px;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+.choices{
+    text-align: center;
+    margin: 50px 0px 30px 0px;
+}
+
+.choice{
+    display: inline-block;
+    border: aliceblue 3px solid;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 0px 5px;
+    transition: all 0.3s ease;
+}
+
+.choice:hover{
+    transform: scale(1.1);
+}
+
+.action-message{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+span{
+    margin: 0 10px;
+}
+
+.green-glow{
+    border: 4px greenyellow  solid;
+    box-shadow: 0 0 10px 6px green;
+}
+
+.red-glow{
+    border: 4px red  solid;
+    box-shadow: 0 0 10px 6px darkred;
+}
+
+.gray-glow{
+    border: 4px gray  solid;
+    box-shadow: 0 0 10px 6px black;
+}
